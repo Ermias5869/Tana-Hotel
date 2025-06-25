@@ -15,7 +15,7 @@
   - `/account/reservations`
 - ✅ Image & font optimization
 - ✅ Metadata & favicon setup
-- ✅ supabase setup
+- ✅ fetch from supabase
 - 🚧 Booking functionality (in progress)
 - 🚧 Backend integration (coming soon)
 
