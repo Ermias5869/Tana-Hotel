@@ -1,23 +1,58 @@
-# 🏨 Tana Hotel - Cabin Booking Website (WIP)
+🏨 Tana Hotel – Cabin Booking Website ✅
+Tana Hotel is a fully functional cabin booking platform built with Next.js, featuring secure authentication and real-time data handling. Designed for a smooth and modern user experience, it allows customers to browse cabins, view details, and manage their bookings effortlessly.
 
-**Tana Hotel** is a modern, customer-facing cabin booking platform built with **Next.js**. The project is currently under development, focusing on delivering a smooth user experience for viewing and reserving cabins.
+🚀 Tech Stack
+Framework: Next.js (App Router)
 
----
+Authentication: NextAuth.js
 
-## ⚙️ Current Progress
+Database & Backend: Supabase
 
-- ✅ Project setup with Next.js App Router
-- ✅ Static routing for:
-  - `/` (Home)
-  - `/about`
-  - `/cabins`
-  - `/account/profile`
-  - `/account/reservations`
-- ✅ Image & font optimization
-- ✅ Metadata & favicon setup
-- ✅ fetch from supabase
-- 🚧 Booking functionality (in progress)
-- 🚧 Backend integration (coming soon)
+Styling: Tailwind CSS (or insert your styling framework if different)
+
+Hosting: Vercel (or your hosting platform)
+
+✅ Features
+🔐 Secure Sign In / Sign Out with NextAuth
+
+🛏️ View all available cabins
+
+📅 Make reservations
+
+👤 User profile with booking history
+
+⚡ Data fetching & real-time sync via Supabase
+
+🎨 Optimized UI: images, fonts, metadata, favicon
+
+# 1. Clone the repository
+
+git clone https://github.com/your-username/tana-hotel.git
+
+# 2. Navigate into the project folder
+
+cd tana-hotel
+
+# 3. Install dependencies
+
+npm install
+
+# 4. Set up environment variables
+
+# Create a `.env.local` file in the root directory and add:
+
+SUPABASE_URL=https://your-supabase-url.supabase.co
+SUPABASE_ANON_KEY=your-anon-key
+NEXTAUTH_URL=http://localhost:3000/
+NEXTAUTH_SECRET=your-nextauth-secret
+AUTH_GOOGLE_ID=your-google-client-id
+AUTH_GOOGLE_SECRET=your-google-client-secret
+
+# 5. Run the development server
+
+npm run dev
+
+Now visit: http://localhost:3000 to see the app in action.
 
 ## 🖼️ Screenshots
 
